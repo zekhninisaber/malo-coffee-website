@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 240" fill="none" role="img" aria-label="malō turtle mascot">
+  <!--
+    malō turtle mascot
+    Traced from brand identity: semicircle shell, ground line,
+    3 rounded claw bumps each side, dot eyes, gentle smile arc.
+    Color: #EDE0C8 (warm beige — from vitrine lettering)
+    Background: transparent
+    Style: hand-drawn organic strokes, rounded caps/joins
+  -->
+
+  <g stroke="#EDE0C8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+
+    <!-- ── Shell dome (thick semicircle arc) ── -->
+    <path
+      d="M 72,142 C 72,58 368,58 368,142"
+      stroke-width="11"
+    />
+
+    <!-- ── Ground line ── -->
+    <line x1="44" y1="142" x2="396" y2="142" stroke-width="9"/>
+
+    <!-- ── Left feet: 3 rounded bumps below ground line ── -->
+    <!-- Bump 1 (leftmost) -->
+    <path d="M 82,142 C 82,162 100,162 100,142" stroke-width="8"/>
+    <!-- Bump 2 -->
+    <path d="M 104,142 C 104,162 122,162 122,142" stroke-width="8"/>
+    <!-- Bump 3 -->
+    <path d="M 126,142 C 126,162 144,162 144,142" stroke-width="8"/>
+
+    <!-- ── Right feet: 3 rounded bumps below ground line ── -->
+    <!-- Bump 4 -->
+    <path d="M 296,142 C 296,162 314,162 314,142" stroke-width="8"/>
+    <!-- Bump 5 -->
+    <path d="M 318,142 C 318,162 336,162 336,142" stroke-width="8"/>
+    <!-- Bump 6 -->
+    <path d="M 340,142 C 340,162 358,162 358,142" stroke-width="8"/>
+
+    <!-- ── Smile ── -->
+    <path
+      d="M 198,154 Q 220,172 242,154"
+      stroke-width="7"
+    />
+
+  </g>
+
+  <!-- ── Eyes (filled circles) ── -->
+  <circle cx="196" cy="130" r="7" fill="#EDE0C8"/>
+  <circle cx="244" cy="130" r="7" fill="#EDE0C8"/>
+
+</svg>
