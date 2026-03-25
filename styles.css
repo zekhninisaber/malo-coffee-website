@@ -431,9 +431,6 @@ p {
   flex-direction: column;
   gap: 0.375rem;
 }
-.hero-sub .hero-badge {
-  margin-bottom: 0.25rem;
-}
 .hero-sub p {
   font-size: 1rem;
   color: rgba(255,255,255,0.6);
