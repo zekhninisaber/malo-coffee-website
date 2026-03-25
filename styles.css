@@ -390,15 +390,6 @@ p {
   gap: var(--space-lg);
 }
 
-/* AI-generated turtle mascot in hero */
-.hero-mascot {
-  width: 180px;
-  height: auto;
-  border-radius: var(--radius-lg);
-  mix-blend-mode: screen;
-  opacity: 0.92;
-  filter: drop-shadow(0 4px 24px rgba(0,0,0,0.3));
-}
 .hero-badge {
   display: inline-flex;
   align-items: center;
