@@ -171,6 +171,28 @@ p {
   /* Show original dark green on white nav */
   filter: none;
 }
+/* Placeholder shown until real logo is dropped in */
+.nav-logo-placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+  padding: 0 0.875rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px dashed rgba(255,255,255,0.4);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.06);
+  transition: all var(--dur-base) var(--ease);
+}
+.navbar.scrolled .nav-logo-placeholder {
+  border-color: rgba(26,75,53,0.35);
+  color: rgba(26,75,53,0.5);
+  background: rgba(26,75,53,0.06);
+}
+
 /* Fallback text if image fails */
 .nav-logo-text {
   font-family: var(--font);
