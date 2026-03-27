@@ -819,11 +819,11 @@ p {
 }
 .gallery-item:hover .gallery-item-bg { transform: scale(1.04); }
 
-.gallery-item-bg.g1 { background: linear-gradient(145deg, var(--primary), var(--accent)); }
-.gallery-item-bg.g2 { background: linear-gradient(145deg, var(--primary-mid), #8ABFA8); }
-.gallery-item-bg.g3 { background: linear-gradient(145deg, var(--accent), #B8DFD0); }
-.gallery-item-bg.g4 { background: linear-gradient(145deg, #2D7A58, var(--accent)); }
-.gallery-item-bg.g5 { background: linear-gradient(145deg, var(--dark), var(--primary)); }
+.gallery-item-bg.g1 { background-image: url('images/gallery-space.jpeg'); background-size: cover; background-position: center; }
+.gallery-item-bg.g2 { background-image: url('images/gallery-espresso.jpeg'); background-size: cover; background-position: center; }
+.gallery-item-bg.g3 { background-image: url('images/gallery-bagel-saumon.jpeg'); background-size: cover; background-position: center; }
+.gallery-item-bg.g4 { background-image: url('images/gallery-comptoir.jpeg'); background-size: cover; background-position: center; }
+.gallery-item-bg.g5 { background-image: url('images/gallery-cappuccino.jpeg'); background-size: cover; background-position: center; }
 
 .gallery-overlay {
   position: absolute;
