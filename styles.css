@@ -548,12 +548,15 @@ p {
   width: 100%;
   aspect-ratio: 3/4;
   border-radius: var(--radius-lg);
-  background: var(--brand-mint);
   overflow: hidden;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+.about-img-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 /* Logo placeholder in about block */
 .logo-placeholder {
