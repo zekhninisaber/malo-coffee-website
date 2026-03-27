@@ -735,10 +735,15 @@ p {
   position: relative;
   overflow: hidden;
 }
-.menu-card-img.green-dark  { background: linear-gradient(135deg, var(--primary) 0%, var(--primary-mid) 100%); }
-.menu-card-img.green-mid   { background: linear-gradient(135deg, var(--primary-mid) 0%, var(--accent) 100%); }
-.menu-card-img.green-light { background: linear-gradient(135deg, var(--accent) 0%, #9DCFB8 100%); }
-.menu-card-img.green-warm  { background: linear-gradient(135deg, #3D6B4A 0%, #6B9E78 100%); }
+.menu-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+.menu-card:hover .menu-card-img img { transform: scale(1.04); }
 .menu-card-img .placeholder-label {
   position: absolute;
   inset: 0;
